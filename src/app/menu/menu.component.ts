@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Dish } from '../shared/dish';
+
 const DISHES: Dish[] = [
   {
     id: '0',
@@ -11,6 +12,7 @@ const DISHES: Dish[] = [
     price: '4.99',
     // tslint:disable-next-line:max-line-length
     description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'
+
   },
   {
     id: '1',
